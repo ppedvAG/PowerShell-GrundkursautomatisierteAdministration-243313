@@ -1,0 +1,37 @@
+Aufgabe 1: Erforsche Cmdlets und wähle das richtige
+
+Du hast bereits die Cmdlets Get-Help, Get-Command und Get-Member kennengelernt. Nutze dieses Wissen, um die folgenden Fragen zu beantworten:
+
+Welche Cmdlets helfen dir dabei, Informationen über ein anderes Cmdlet zu bekommen? Probiere beide Methoden aus und überlege, welches am sinnvollsten ist, um detaillierte Informationen zu erhalten. Teste z.B. mit dem Cmdlet Get-Service.
+Tipp: Du kannst mehrere Optionen ausprobieren, aber welches gibt dir die meisten Informationen über das Cmdlet?
+Finde heraus, welche Cmdlets du verwenden kannst, um Dienste auf dem System anzuzeigen. Nutze eine der oben genannten Methoden (Get-Help, Get-Command oder Get-Member), um herauszufinden, wie du den Status von Diensten auflisten kannst. Überlege dir: Welches der drei Cmdlets ist hier am sinnvollsten und warum?
+
+Aufgabe 2: Variablen und Operationen
+Erstelle zwei Variablen:
+$x mit dem Wert 15.
+$y mit dem Wert 4.
+
+Berechne:
+Den Quotienten von $x durch $y.
+Den Rest dieser Division (Tipp: Verwende den Modulo-Operator %).
+Speichere die Ergebnisse in neuen Variablen $quotient und $rest.
+Erstelle eine dritte Variable $result und speichere darin das Ergebnis der folgenden Berechnung:
+
+($x * 3) + ($y - 2)
+
+Zeige das Ergebnis in der Konsole an und erkläre, warum die Reihenfolge der Berechnungen so gewählt wurde.
+
+Aufgabe 3: Pipeline und Filter anwenden
+
+Verwende die Pipeline, um die Prozesse auf deinem System zu untersuchen:
+Welche Cmdlets helfen dir, laufende Prozesse anzuzeigen?
+Nutze die Pipeline und leite die Ausgabe an Get-Member weiter, um herauszufinden, welche Eigenschaften die Prozessobjekte haben.
+
+Aufgabe 4: Module erkunden und anwenden
+Überprüfe, welche Module aktuell geladen sind:
+
+Welches Cmdlet hilft dir dabei, alle geladenen Module zu sehen? Welches der drei gelernten Cmdlets hilft dir hier, die richtige Methode zu finden? Nutze es, um das Cmdlet zu identifizieren.
+
+Lade das Modul Microsoft.PowerShell.Management, falls es nicht bereits geladen ist, und finde heraus, welche Cmdlets dieses Modul enthält.
+
+Finde heraus, welche Cmdlets du verwenden kannst, um Informationen über den Freien Speicherplatz auf Festplatten anzuzeigen. Verwende die Cmdlets, um die Größe und den verfügbaren Speicherplatz deiner Festplatten zu ermitteln.
